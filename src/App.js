@@ -1,18 +1,27 @@
-import Header from "./components/Header/Header"
+import Projects from "./pages/Projects";
+import Articles from "./pages/Articles";
+import About from "./pages/About";
+import { BrowserRouter, Route } from "react-router-dom";
 
-import './App.css';
-import Carousel from "./components/Carousel/Carousel";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      
-      <Carousel />
+    <>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/articles" component={Articles} />
 
-      
-     
-    </div>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
