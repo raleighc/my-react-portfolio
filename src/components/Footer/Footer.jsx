@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="footer text-muted">Copyright Chestnut IND</div>
+      <div className="footer text-muted"> Ⓒ Chestnut Ind.</div>
     </>
   );
 };

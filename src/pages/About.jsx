@@ -3,9 +3,10 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className="card">
            
             <h1>This is my About Page</h1>
+            
         </div>
     );
 };

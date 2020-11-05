@@ -1,5 +1,4 @@
 import Projects from "./pages/Projects";
-import Articles from "./pages/Articles";
 import About from "./pages/About";
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -14,9 +13,9 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Header />
+          
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/articles" component={Articles} />
 
           <Footer />
         </div>
