@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import ProjectsJSON from "../../projects"
+import ProjectsJSON from "../../projects.json"
 
 import "./ProjectCard.css"
 
