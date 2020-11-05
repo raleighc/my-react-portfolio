@@ -11,17 +11,17 @@ const ProjectCard = () => {
         // console.log(ProjectsJSON)
     }, [])
   return (
-    <>
+    <div className="container">
     {projects.map(project => {
         console.log(project)
         return (
             <div className="card">
-            <img className="projectImg" src={project.image}/>
+            <img className="projectImg" src={project.image} alt={project.title}/>
             <h3>{project.title}</h3>
             </div>
         )
     })}
-    </>
+    </div>
   );
 };
 
