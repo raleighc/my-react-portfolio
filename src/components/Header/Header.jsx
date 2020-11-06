@@ -38,17 +38,17 @@ const Header = () => {
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">
               <a className="nav-link" target="_blank" rel="noreferrer noopener" href="https://github.com/raleighc">
-              <i class="fab fa-github-square fa-2x"></i>
+              <i className="fab fa-github-square fa-2x"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/raleigh-chesney/">
-              <i class="fab fa-linkedin fa-2x"></i>
+              <i className="fab fa-linkedin fa-2x"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" target="_blank" rel="noreferrer noopener" href="https://drive.google.com/file/d/1G45DpT7DQbb3YtiKl0l-HhxIHbfAxMIZ/view?usp=sharing">
-              <i class="far fa-file fa-2x"></i>
+              <i className="far fa-file fa-2x"></i>
               </a>
             </li>
           </ul>

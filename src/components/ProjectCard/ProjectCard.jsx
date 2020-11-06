@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import ProjectsJSON from "../../projects.json"
+import ProjectsJSON from "./projectsJSON.js"
 
 import "./ProjectCard.css"
 
@@ -13,11 +13,13 @@ const ProjectCard = () => {
   return (
     <div className="container">
     {projects.map(project => {
-        console.log(project)
+      console.log(project.image)
         return (
-            <div className="card">
-            <img className="projectImg" src={project.image} alt={project.title}/>
-            <h3>{project.title}</h3>
+            <div key={project.id} className="card">
+            <img className="projectImg" src={project.image} alt={project.title} />
+            <h4>{project.title}</h4>
+            <a target="_blank" rel="noreferrer noopener" href={project.deployedURL}>Deployed Site</a>
+            <p>{project.description}</p>
             </div>
         )
     })}
