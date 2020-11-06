@@ -1,17 +1,33 @@
 .projectImg{
     align-content: center;
-    width: 800px;
+    width: 95%;
     padding: 30px;
     margin: auto;
 }
 
 .container{
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-bottom: 90px;
     vertical-align: auto;
 }
 
 .card { 
-    color: white;
-    background-color: rgba(58, 73, 95, 0.65) !important;
-    box-shadow: 0px 0px 5px;
+    margin-top: 30px;
+    color: rgb(56, 54, 48);
+    background-color: rgba(185, 194, 207, 0.85) !important;
+    /* box-shadow: 0px 0px 5px; */
+}
+
+.center {
+    text-align: center;
+}
+
+.ProjectCard a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(141, 101, 22)!important;
+}
+
+.ProjectCard a:hover{
+    color: rgb(240, 203, 130)!important;
 }

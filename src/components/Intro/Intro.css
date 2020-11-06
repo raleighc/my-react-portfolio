@@ -1,0 +1,28 @@
+.vertCenter{
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.introPos{
+    position: relative;
+}
+
+.portraitCir {
+  width: 150px;
+  float: left;
+  margin: 20px;
+}
+
+#introPar {
+  margin: 20px;
+  font: Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 3px #000000;
+}
+

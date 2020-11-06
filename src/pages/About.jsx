@@ -1,13 +1,13 @@
 import React from 'react';
-
+import AboutMe from "../components/AboutMe/AboutMe";
 
 const About = () => {
     return (
-        <div className="card">
+        <>
            
-            <h1>This is my About Page</h1>
+            <AboutMe />
             
-        </div>
+        </>
     );
 };
 
